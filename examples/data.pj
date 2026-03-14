@@ -1,0 +1,18 @@
+// User da data
+manno banda = {
+    "naam": "Ranvir",
+    "shehar": "Ludhiana",
+    "umar": 20
+};
+
+likh("Bande da naam:");
+likh(banda["naam"]);
+
+likh("Shehar:");
+likh(banda["shehar"]);
+
+// Dictionary vich nava data pauna
+banda["hun_kithe"] = "Canada";
+
+likh("Hun kithe hai?");
+likh(banda["hun_kithe"]);

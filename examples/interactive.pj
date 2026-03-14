@@ -1,0 +1,4 @@
+likh("Tuhada naam ki hai?");
+manno naam = bhar();
+likh("Sat Sri Akal:");
+likh(naam);

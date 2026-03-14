@@ -1,0 +1,14 @@
+kamm jorh(a, b) {
+    manno natija = a + b;
+    waapas natija;
+}
+
+kamm guna(a, b) {
+    waapas a * b;
+}
+
+likh("5 aur 10 da jorh hai:");
+likh(jorh(5, 10));
+
+likh("5 aur 10 da guna hai:");
+likh(guna(5, 10));

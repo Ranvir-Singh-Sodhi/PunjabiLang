@@ -1,0 +1,9 @@
+manno ginti = 1;
+likh("Ginti shuru:");
+
+jadon_takk (ginti < 6) {
+    likh(ginti);
+    ginti = ginti + 1;
+}
+
+likh("Khatam!");

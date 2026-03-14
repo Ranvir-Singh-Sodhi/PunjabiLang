@@ -1,0 +1,22 @@
+# Python Virtual Environment
+venv/
+env/
+
+# Python Cache Files (Generated when Python runs scripts)
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# PyInstaller Build Artifacts (We only care about the source code, not the generated exe)
+build/
+dist/
+*.spec
+
+# IDE and Editor Folders (VS Code, PyCharm, etc.)
+.vscode/
+.idea/
+
+# OS Hidden Files
+.DS_Store
+Thumbs.db

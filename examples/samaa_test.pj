@@ -1,0 +1,8 @@
+likh("--- Punjabi Language Clock ---");
+
+manno hun_da_samay = samaa();
+likh("Hunn da samay hai:");
+likh(hun_da_samay);
+
+// Ek suneha (message) based on time
+likh("Program khatam hoya!");

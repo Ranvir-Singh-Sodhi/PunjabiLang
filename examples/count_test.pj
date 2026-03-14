@@ -1,0 +1,12 @@
+manno phal = ["Seb", "Kela", "Santra", "Amrud"];
+manno kul_phal = ganit(phal);
+
+likh("Mere kol phal han:");
+likh(kul_phal);
+
+manno i = 0;
+jadon_takk (i < kul_phal) {
+    likh("Phal number " + i);
+    likh(phal[i]);
+    i = i + 1;
+}

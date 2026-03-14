@@ -1,0 +1,5 @@
+manno x = 10;
+likh("Line 1 is fine");
+
+manno y = 20 // Bhul gaye semicolon (Forgot semicolon)
+likh("Line 4 should fail");

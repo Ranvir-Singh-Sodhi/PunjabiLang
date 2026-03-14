@@ -1,0 +1,13 @@
+manno dost = ["Ranvir", "Aman", "Simran"];
+
+likh("Mera pehla dost:");
+likh(dost[0]);
+
+likh("Mera dooja dost:");
+likh(dost[1]);
+
+manno number = [10, 20, 30];
+manno jorh = number[0] + number[2];
+
+likh("10 aur 30 da jorh:");
+likh(jorh);

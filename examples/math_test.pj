@@ -1,0 +1,38 @@
+// Math Engine Test Script
+likh("--- Punjabi Lang Math Test ---");
+
+manno pehla = 25;
+manno dooja = 10;
+
+// Basic Math
+likh("Jorh (25 + 10):");
+likh(pehla + dooja);
+
+likh("Guna (25 * 10):");
+likh(pehla * dooja);
+
+likh("Ghatao (25 - 10):");
+likh(pehla - dooja);
+
+likh("Vand (25 / 10):");
+likh(pehla / dooja);
+
+// Logic and Comparisons
+likh("Ki 25, 10 ton vadda hai?");
+je (pehla > dooja) {
+    likh("Haan, vadda hai!");
+} nahi_taan {
+    likh("Nahi, chota hai.");
+}
+
+// Complex Expression Test
+manno hisab = (pehla * 2) + dooja; 
+likh("Hisab (25 * 2 + 10):");
+likh(hisab);
+
+// Type Conversion Test
+likh("Ek number likho:");
+manno input_text = bhar();
+manno converted = ank(input_text);
+likh("Tuhada number + 100 hai:");
+likh(converted + 100);

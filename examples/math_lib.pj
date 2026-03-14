@@ -1,0 +1,13 @@
+kamm dugna(n) {
+    waapas n * 2;
+}
+
+kamm vadh(a, b) {
+    je (a > b) { waapas a; }
+    waapas b;
+}
+
+kamm ghatt(a, b) {
+    je (a < b) { waapas a; }
+    waapas b;
+}

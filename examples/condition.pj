@@ -1,0 +1,9 @@
+manno umar = 20;
+likh("Tuhadi umar hai:");
+likh(umar);
+
+je (umar > 18) {
+    likh("Tusi vote paa sakde ho!");
+} nahi_taan {
+    likh("Tusi aje chote ho.");
+}

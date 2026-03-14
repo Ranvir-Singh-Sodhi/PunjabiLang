@@ -1,0 +1,22 @@
+manno sahi_jawab = tuka(1, 10);
+manno jittya = 0;
+
+likh("1 ton 10 de vitch ek number bujho!");
+
+jadon_takk (jittya == 0) {
+    likh("Tuhada tuka ki hai?");
+    // Convert text input to a number immediately
+    manno user_da_input = bhar();
+    manno tuka_user = ank(user_da_input);
+    
+    je (tuka_user == sahi_jawab) {
+        likh("Sahi jawab! Tusi jitt gaye!");
+        jittya = 1;
+    } nahi_taan {
+        je (tuka_user > sahi_jawab) {
+            likh("Thoda thalle!");
+        } nahi_taan {
+            likh("Thoda utte!");
+        }
+    }
+}

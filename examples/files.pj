@@ -1,0 +1,11 @@
+shaamil "examples/math_lib.pj"; // Let's use your library too!
+
+likh("Apna naam daso:");
+manno naam = bhar();
+
+manno f = kholo("log.txt", "a"); // 'a' means append (add to end)
+likho_file(f, samaa() + " - " + naam + " ne program chalaya\n");
+band_karo(f);
+likh(samaa());
+
+likh("Tuhada naam te samay save ho gaya!");

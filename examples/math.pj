@@ -1,0 +1,10 @@
+likh("Tuhada naam ki hai?");
+manno naam = bhar();
+
+manno janam_saal = 2000;
+manno maujuda_saal = 2026;
+manno umar = maujuda_saal - janam_saal;
+
+likh("Sat Sri Akal, " + naam);
+likh("Tuhadi umar hai:");
+likh(umar);

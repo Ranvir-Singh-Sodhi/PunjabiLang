@@ -1,0 +1,7 @@
+shaamil "examples/math_lib.pj";
+
+likh("Library ton 'dugna' function chalaya:");
+likh(dugna(50));
+
+likh("Vadda number:");
+likh(vadh(15, 25));
